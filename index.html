@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Ejercicio</title>
+    <title>Page Exercise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Fontawsome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
@@ -18,7 +18,6 @@
     <!-- Custom css -->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <!-- Custom css -->
-
 </head>
 
 
@@ -39,7 +38,7 @@
                 </ul>
             </div>
 
-            <button type="button" class="btn btn-outline-primary">Exit</button>
+            <button type="button" class="btn btn-outline-primary"><i class="fas fa-sign-out-alt"></i>Exit</button>
         </nav>
     </header>
 
@@ -146,7 +145,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!-- End Bootstrap-->
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./js/moment.js"></script>
+    <script>
+        document.getElementById("date").innerHTML = moment().format('Do dddd MMMM YYYY');
+    </script>
 </body>
 
 </html>
